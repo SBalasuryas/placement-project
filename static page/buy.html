@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Medicines</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            }
+        header {
+            background-color: #383255;
+            color: #ffee00;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            }
+        nav:hover {
+            color: gray; 
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #4b3333;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        section {
+            padding: 50px;
+        }
+        footer {
+            background-color: #ffffff;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+            .features_scr {
+            width: 100%;
+            white-space: nowrap;
+            overflow-x: auto;
+            display: flex;
+           }    
+           .features{
+            min-width: 200px;
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+           } 
+              
+                
+         section.features {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px;
+            background-color: #f4f4f4;
+            }    
+         .feature {
+            text-align: center;  
+            border-radius: 1%;
+            padding: 10px;
+            
+            }    
+         .feature img {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 25px;
+            border-radius: 5%;
+            }
+               
+         .about {
+            text-align: center;
+            padding: 40px;
+            }
+                
+         footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+           }
+        section.team {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            padding: 40px;
+            background-color: #f4f4f4;
+            }
+        section.team2 {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            padding: 40px;
+            background-color: #f4f4f4;
+            }
+        section.team3 {
+            display: flex;
+            width: 100%;
+             justify-content: space-around;
+            align-items: center;
+            padding: 40px;
+            background-color: #f4f4f4;
+            }
+        .team-member {
+            text-align: center;
+        }
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 20%;
+            margin-bottom: 20px;
+        }
+        section.service {
+            text-align: center;
+            padding: 40px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        section.service:last-child {
+            border-bottom: none;
+        } 
+        section.contact-form {
+            text-align: center;
+            padding: 40px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            padding: 8px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #d3abab;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+           
+            color: rgb(156, 218, 102);
+        }
+
+        section.contact-info {
+            text-align: center;
+            padding: 40px;
+            background-color: #f4f4f4;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+       
+
+  </style>
+
+</head>
+<body>
+    <header>
+        <h1>Online Medical Shop</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Capsules</a></li>
+            <li><a href="#about">Syrups</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2><b><u>Capsules</u></b>:</h2> 
+        
+ 
+    <!-- <header>
+        <h1>welcome to online shopping</h1>
+        <p>Welcome to our Online Shopping Haven! Discover a world of convenience where your every shopping desire is just a click away. Explore a curated selection of premium products that cater to your lifestyle. From trendy fashion to cutting-edge electronics, we bring you the latest and greatest.</p>
+        <p>Enjoy your shopping with us!!!!!</p>
+    </header> -->
+
+    <section class="features_scr">
+        <div class="feature">
+            <img src="images/buyimg/t1.jpg" alt="Feature 1 Icon">
+            <h2>Paracetamol</h2>
+            <button>Add to Cart</button>           
+           
+        </div>
+
+        <div class="feature">
+            <img src="images/buyimg/t2.webp" alt="Feature 2 Icon">
+            <h2>Amlodipine</h2>
+            <button>Add to Cart</button>           
+        </div>
+        <br>
+        <div class="feature">
+            <img src="images/buyimg/t3.avif" alt="Feature 3 Icon">
+            <h2>Atorvastatin</h2>
+            <button>Add to Cart</button>           
+        </div>
+        <div class="feature">
+            <img src="images/buyimg/t4.jpg" alt="Feature 1 Icon">
+            <h2>Albuterol</h2>
+            <button>Add to Cart</button>           
+        </div>
+
+        <div class="feature">
+            <img src="images/buyimg/t5.jpg" alt="Feature 2 Icon">
+            <h2>Lisinopril</h2>
+            <button>Add to Cart</button>           
+        </div>
+
+        <div class="feature">
+            <img src="images/buyimg/t6.jpg" alt="Feature 3 Icon">
+            <h2>Azithromycin</h2>
+            <button>Add to Cart</button>           
+        </div>
+        <div class="feature">
+            <img src="images/buyimg/t7.jpg" alt="Feature 1 Icon">
+            <h2>Omeprazole</h2>
+            <button>Add to Cart</button>           
+        </div>
+
+        <div class="feature">
+            <img src="images/buyimg/t8.jpg" alt="Feature 2 Icon">
+            <h2>Amoxillin</h2>
+            <button>Add to Cart</button>           
+        </div>
+
+        <!-- <div class="feature">
+            <img src="C:\Users\sbala\Desktop\webpage\IMG-20231219-WA0014.jpg" alt="Feature 3 Icon">
+            <h2>watches</h2>
+            <a href="c:\Users\sbala\Desktop\webpage\product1.html">BUY</a>
+           
+        </div>
+        <div class="feature">
+            <img src="C:\Users\sbala\Desktop\webpage\IMG-20231219-WA0016.jpg" alt="Feature 1 Icon">
+            <h2>dress</h2>
+            <a href="c:\Users\sbala\Desktop\webpage\product1.html">BUY</a>
+          
+        </div>
+
+        <div class="feature">
+            <img src="C:\Users\sbala\Desktop\webpage\IMG-20231219-WA0012.jpg" alt="Feature 2 Icon">
+            <h2>shoes</h2>
+            <a href="c:\Users\sbala\Desktop\webpage\product5.html">BUY</a>
+           
+        </div>
+
+        <div class="feature">
+            <img src="C:\Users\sbala\Desktop\webpage\IMG-20231219-WA0003.jpg" alt="Feature 3 Icon">
+            <h2>super coins</h2>
+            <a href="www.flipkart.com">BUY</a>
+          
+        </div> -->
+    </section>
+    </section>
+
+    <section id="about">
+        <h2><u><b>Syrups</u> :</b></h2>
+    <!-- <header>
+        <h1>Products</h1>
+        <p>Get your dream item in your hand!!!!</p>
+    </header> -->
+
+    <section class="team">
+        
+        <div class="team-member">
+            <img src="images/buyimg/p1.jpg" alt="Team Member 1">
+            <h3>Ice Vita</h3>
+            <button>Add to Cart</button>           
+        </div>
+
+        <div class="team-member">
+            <img src="images/buyimg/p2.jpg" alt="Team Member 2">
+            <h3>Gastorin</h3>
+            <button>Add to Cart</button>           
+        </div>
+
+        <div class="team-member">
+            <img src="images/buyimg/p3.jpg" alt="Team Member 3">
+            <h3>Yacon Syrup</h3>
+            <button>Add to Cart</button>           
+        </div>
+    </section>
+
+    <section class="team2">
+        
+        <div class="team-member">
+            <img src="images/buyimg/p4.jpg" alt="Team Member 1">
+            <h3>Cough Syrup</h3>
+            <button>Add to Cart</button>           
+        </div>
+
+        <div class="team-member">
+            <img src="images/buyimg/p5.jpg" alt="Team Member 2">
+            <h3>Allergex</h3>
+            <button>Add to Cart</button>           
+        </div>
+
+        <div class="team-member">
+            <img src="images/buyimg/p6.jpg" alt="Team Member 3">
+            <h3>Denpap</h3>
+            <button>Add to Cart</button>           
+        </div>
+    </section>
+
+
+    <section class="team3">
+        
+        <div class="team-member">
+            <img src="images/buyimg/p7.jpg" alt="Team Member 1">
+            <h3>Chest-eeze</h3>
+            <button>Add to Cart</button>           
+         
+        </div>
+
+        <div class="team-member">
+            <img src="p8.jpg" alt="Team Member 2">
+            <h3>Kids Relief(Cough Syrup)</h3>
+            <button>Add to Cart</button>           
+         
+        </div>
+
+        <div class="team-member">
+            <img src="images/buyimg/p9.jpg" alt="Team Member 3">
+            <h3>Degass</h3>
+            <button>Add to Cart</button>           
+        </div>
+    </section>
+
+    <button style=" color:#ffee00;width: 200px; margin-left: 500px; margin-top: 50px;"  ><a href="file:///C:/Users/Logesh%20Ravi/Desktop/Demo/product1.html">GO TO CART</a></button>
+
+
+
+
+
+    <section id="contact">
+        <h2><b><u>Contact Section</u></b>:</h2>
+
+      
+    <header>
+        <h1>Contact Us</h1>
+        <p>Feel free to reach out to us with any questions with our products!!!</p>
+    </header>
+
+    <section class="contact-form">
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Feedback:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" onclick="">Submit</button>
+        </form>
+    </section>
+
+    <section class="contact-info">
+        <h2><u><b>CONTACT US ON</b></u> :</h2>
+        <p><b>Email</b>:<a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRttWZrqXvpWwzSRPclcDPVBtXWQClPdwBMRdgdqklZQDLwHhhXlSHXVrnCDpgvwrpXlrVq">sbalasbalasurya@gmail.com</a></p>
+        <p><b>Phone</b>: +91 7358907579</p>
+        <p><b>Address</b>: 152,coimbatore tamilnadu-641107</p>
+    </section>
+    </section>
+
+  
+        <p>&copy; Online Medical Shop</p>
+ 
+</body>
+</html>
+
